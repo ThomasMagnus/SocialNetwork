@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",(()=>{"use strict";const e=document.querySelector(".user__menu_arrow"),t=document.querySelector(".user__list"),r=document.querySelector(".user__menu_arrow i");e.addEventListener("click",(()=>{t.classList.toggle("active"),r.classList.toggle("active__arrow")}))}));

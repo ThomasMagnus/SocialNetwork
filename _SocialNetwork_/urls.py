@@ -10,4 +10,5 @@ urlpatterns = [
     path('reg/', include('django.contrib.auth.urls')),
     path('reg/', include('registration.urls')),
     path('users/', include('users.urls')),
+    path('createPost/', include('createPosts.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
